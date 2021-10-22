@@ -1,0 +1,79 @@
+/* Global Styles */
+body {
+	font-family: "Open Sans", sans-serif;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Helper Classes */
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.w-100 {
+	width: 100%;
+}
+.grid {
+	display: grid;
+}
+.justify-center {
+	justify-content: center;
+}
+.align-center {
+	align-items: center;
+}
+.justify-around {
+	justify-content: space-around;
+}
+.justify-between {
+	justify-content: space-between;
+}
+
+/*Generic Page Level Settings */
+
+/* Header */
+#header {
+}
+
+/* Container */
+#container {
+}
+
+/* Banner */
+#banner {
+}
+
+/* Sidebar */
+#sidebar {
+}
+
+/* Main Navigation */
+#main-nav {
+}
+
+/* Footer */
+#footer {
+}
+
+/* Specific CSS */
+
+/* Page_1 */
