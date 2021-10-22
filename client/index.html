@@ -5,11 +5,110 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Electronic Mart</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="./assets/styles/main.css" />
+		<script
+			src="https://kit.fontawesome.com/e87fa33654.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
 		<div id="container">
+			<!-- Topbar -->
+			<div id="topbar">
+				<div class="container">
+					<div class="row justify-between">
+						<div class="col-1">
+							<span>WELCOME TO OUR SHOP</span>
+						</div>
+						<div class="col-2">
+							<a href="">
+								<i class="fas fa-location-arrow"></i>
+								<span>Select Location</span>
+							</a>
+
+							<a href="">
+								<i class="fas fa-sign-in-alt"></i>
+								<span>Login</span>
+							</a>
+
+							<a href="">
+								<i class="fas fa-sign-in-alt"></i>
+								<span>Register</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<!-- Header -->
+
+			<header id="header" class="container">
+				
+				<div class="row justify-between align-center">
+					<div class="logo">
+						<h1>
+							<a href="#"><span>E</span>lectronic <span>M</span>art</a>
+						</h1>
+					</div>
+					<div class="search">
+						<form action="" method="post">
+							<input type="text" name="search" placeholder="Search for Products, brands and more" />
+							<button type="submit">
+								<i class="fas fa-search"></i>
+							</button>
+						</form>
+				</div>
+				<div class="row user-links">
+					<a href="">
+						<i class="far fa-moon"></i>
+						<span>Account</span>
+					</a>
+					<a href="">
+						<i class="fas fa-heart"></i>
+						<span>Wishlist</span>
+					</a>
+					
+					<a href="">
+						<i class="fas fa-shopping-cart"></i>
+						<span>Cart</span>
+					</a>
+				</div>
+			</header>
+
+			<!-- Navbar -->
+			<nav id="navbar" >
+				<div class="container row justify-between align-center">
+				<div class="categories">
+						<select name="categories" id="category">
+							<option value="All Categories">All Categories</option>
+							<option value="Television">Television</option>
+							<option value="Mobile">Mobile</option>
+							<option value="Laptop">Laptop</option>
+							<option value="Camera">Camera</option>
+							<option value="Headphone">Headphone</option>
+							<option value="Speaker">Speaker</option>
+							<option value="Refrigerator">Refrigerator</option>
+						</select>
+				</div>
+				<div class="navigations row">
+					<a href="">Home</a>
+					<a href="">Electronics <span><i class="fas fa-chevron-down"></i></span></a>
+					<a href="">Appliances <span><i class="fas fa-chevron-down"></i></span></a>
+					<a href="">About Us</a>
+					<a href="">New Arrivals</a>
+					<a href="">Pages <span><i class="fas fa-chevron-down"></i></span></a>
+					<a href="">Contact Us</a>
+				</div>
+				</div>
+				
+			</nav>
 
 			<!-- Footer -->
 		</div>
